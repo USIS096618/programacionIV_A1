@@ -9,12 +9,11 @@ body{
     align-content: space-around;
 }
 .container > .fila{
-padding: 10px;
-text-align: center;
-word-wrap: break-word;
-}   
-
-
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    
+}
 input, textarea{
     height: 24px;
     border: solid 1px rgb(158, 200, 255);
