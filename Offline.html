@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <title>APP ALUMNOS OFFLINE</title>
+</head>
+<body>
+    <p>APP ALUMNOS OFFLINE</p>
+    <form method="post" id=frmAlumno>
+    
+    <div class="contaniner"></div>
+
+    <div class="fila">
+    <input pattern="^[A-Za]{4}[0-9]{6}" required type=text placeholder="Codigo" id="txtCodigoAlumno">
+    </div>
+    <div class="fila">
+    <input pattern="[A-Za-zñÑ]{3,65}" required type=text placeholder="Nombre" id="txtNombreAlumno">
+    </div>
+    <div class="fila">
+    <input required type=text placeholder="Direccion" id="txtDireccionAlumno">
+    </div>
+    <div class="fila">
+    <input pattern="[0-9]{4}-[0-9]{4}" required type=text placeholder="Telefono" id="txtTelefonoAlumno">
+    </div>
+    <div class="fila">
+    <input required type="submit" value="Guardar" id="txtGuardarAlumno">
+    </div>
+</form>
+
+<script src="app.js"></script>
+
+</body>
+</html>
