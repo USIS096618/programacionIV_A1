@@ -2,10 +2,17 @@ document.addEventListener("DOMContentLoaded", e=>{
     document.querySelector("#frmAlumnos").addEventListener("submit", event=>{
         event.preventDefault();
 
+        var ClaveCodigo = "Codigo"+Codigo;
+        var ClaveNombre = "Nombre"+Codigo;
+        var ClaveDireccion = "Direccion"+Codigo;
+        var ClaveTelefono = "Telefono"+Codigo;
+            
+
         let codigo = document.querySelector("#txtCodigoAlumno").value,
             nombre = document.querySelector("#txtNombreAlumno").value,
             direccion = document.querySelector("#txtDireccionAlumno").value,
             telefono = document.querySelector("#txtTelefonoAlumno").value;
+
 
         console.log(codigo, nombre, direccion, telefono);
         
@@ -24,5 +31,4 @@ document.addEventListener("DOMContentLoaded", e=>{
         document.querySelector("#txtDireccionAlumno").value = window.localStorage.getItem("direccion");
         document.querySelector("#txtTelefonoAlumno").value = window.localStorage.getItem("telefono");
     });
-    
 });
