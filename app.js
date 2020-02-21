@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", e=>{
             "lempira":24.9,
             "cordoba":34.19},
             longitudes = {
-              "mm": 1000,
-              "cm": 100,
-              "mt": 1,
-              "km": 0.001,
+              "milimetro": 1000,
+              "centimetro": 100,
+              "metro": 1,
+              "kilometro": 0.001,
               "milla": 0.000621371},
               almacenamiento = {
                 "bit": 8,
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", e=>{
                 "gb":0.000000001},
                 peso = {
                   "gramo": 1000,
-                  "kg": 1,
+                  "kilogramo": 1,
                   "libra": 2.20462,
                   "onza": 35.274,
                   "tonelada": 0.01};
@@ -60,11 +60,11 @@ document.addEventListener("DOMContentLoaded", e=>{
     if(opcion.value == "moneda"){
       var  array = ["dolar!Dolar","euro!Euro","quetzal!Quetzal","lempira!Lempira","cordoba!Cordoba"]; 
     } else if(opcion.value == "longitud"){
-      var array = ["mm!MM","cm!CM","mt!MT","km!KM","milla!Milla"];
+      var array = ["milimetro!Milimetro","centimetro!Cenntimetro","metro!Metro","kilometro!Kilometro","milla!Milla"];
     } else if(opcion.value == "almacenamiento"){
       var array = ["bit!Bit","byte!Byte","kb!KB","mb!MB","gb!GB"];
     } else if(opcion.value == "peso"){
-      var array = ["gramo!Gramo","kg!KG","libra!Libra","onza!Onza","tonelada!Tonelada"];
+      var array = ["gramo!Gramo","kilogramo!Kilogramo","libra!Libra","onza!Onza","tonelada!Tonelada"];
     };
   
     for(var i=0;i<array.length;i++){ 
