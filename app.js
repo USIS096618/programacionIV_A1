@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", e=>{
               "pulgada":39.3701,
               "pie":3.28084,
               "varas":1.1963081929167,
-              "yardas":1.09361,
+              "yarda":1.09361,
               "kilometro":0.001,
               "milla":0.000621371};
   
