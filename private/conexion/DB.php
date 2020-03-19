@@ -19,4 +19,5 @@ class Conexion{
         return $this->result;
     }
 }
+
 ?>
