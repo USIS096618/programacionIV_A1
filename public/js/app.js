@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", event => {
         e.stopPropagation();
         
         let modulo = "alumnos";
-        fetch('public/vistas/alumnos/alumnos.html').then( resp => resp.text()).then( resp => {
+        fetch('public/vistas/alumno/alumnos.html').then( resp => resp.text()).then( resp => {
             document.getElementById('vista-alumnos').innerHTML = resp;
             let btnCerrar = $(".close");
             btnCerrar.addEventListener("click", event => {
