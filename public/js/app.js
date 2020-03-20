@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", event => {
     
     event.preventDefault();
 
-    let mostrarVista = document.getElementById('Alumno');
+    let mostrarVista = document.getElementById('alumnos');
 
-    let mostrarVistaDocente = document.getElementById('Docente');
+    let mostrarVistaDocente = document.getElementById('docentes');
 
     mostrarVista.addEventListener("click", e=>{
         
